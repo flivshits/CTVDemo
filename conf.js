@@ -14,7 +14,7 @@ exports.config = {
             filePrefix: 'xmloutput',
             displayStacktrace: 'none'
           });
-        //commenting silly change against jenkins build process for end to end pipeline
+        //commenting silly change against jenkins build process for end to end pipeline again
           jasmine.getEnv().addReporter(junitReporter);
     },
         jasmineNodeOpts: {
