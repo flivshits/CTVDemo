@@ -14,6 +14,7 @@ exports.config = {
             filePrefix: 'xmloutput',
             displayStacktrace: 'none'
           });
+        //commenting silly change
           jasmine.getEnv().addReporter(junitReporter);
     },
         jasmineNodeOpts: {
