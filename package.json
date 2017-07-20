@@ -1,0 +1,16 @@
+{
+  "name": "ctv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "dependencies": {
+    "jasmine-reporters": "^2.0.0",
+    "protractor": "^5.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

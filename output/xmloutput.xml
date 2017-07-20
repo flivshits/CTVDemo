@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Scenario: Bad credentials using the Bell Portal" timestamp="2017-07-18T15:41:51" hostname="localhost" time="28.01" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Scenario: Bad credentials using the Bell Portal.Given that I go to the CTV website" timestamp="2017-07-18T15:41:51" hostname="localhost" time="28.01" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Scenario: Bad credentials using the Bell Portal.Given that I go to the CTV website.When I login with bad credentials" timestamp="2017-07-18T15:41:51" hostname="localhost" time="28.01" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Scenario: Bad credentials using the Bell Portal.Given that I go to the CTV website.When I login with bad credentials" name="Then I get an error" time="28.008" />
+ </testsuite>
+ <testsuite name="Scenario: Bad credentials using the Bell Portal with expectation of success" timestamp="2017-07-18T15:42:19" hostname="localhost" time="25.864" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Scenario: Bad credentials using the Bell Portal with expectation of success.Given that I go to the CTV website" timestamp="2017-07-18T15:42:19" hostname="localhost" time="25.864" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Scenario: Bad credentials using the Bell Portal with expectation of success.Given that I go to the CTV website.When I login with bad credentials" timestamp="2017-07-18T15:42:19" hostname="localhost" time="25.864" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Scenario: Bad credentials using the Bell Portal with expectation of success.Given that I go to the CTV website.When I login with bad credentials" name="Then I get an error" time="25.864">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, #auth-section)"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, #auth-section)
+    at WebDriverError (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:27:5)
+    at NoSuchElementError (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:168:5)
+    at elementArrayFinder.getWebElements.then (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:482:23)
+    at ElementArrayFinder.(anonymous function) [as click] (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:96:21)
+    at ElementFinder.(anonymous function) [as click] (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:873:14)
+    at Object.<anonymous> (C:\workspace\CTV\CTVDemo.js:88:24)
+    at C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+From: Task: Run it("Then I get an error") in control flow
+    at Object.<anonymous> (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attemptAsync (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3945:24)
+    at QueueRunner.run (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3884:9)
+    at C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3924:18
+    at C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3848:9
+    at C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2565:10)
+    at shutdownTask_.MicroTask (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2490:53)
+    at MicroTask.asyncRun (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2619:9)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\workspace\CTV\CTVDemo.js:64:4)
+    at addSpecsToSuite (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:994:25)
+    at Env.describe (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:961:7)
+    at describe (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4031:18)
+    at Suite.<anonymous> (C:\workspace\CTV\CTVDemo.js:62:3)
+    at addSpecsToSuite (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:994:25)
+    at Env.describe (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:961:7)
+    at describe (C:\Users\Felix Livshits\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4031:18)
+    at Suite.<anonymous> (C:\workspace\CTV\CTVDemo.js:56:2)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
