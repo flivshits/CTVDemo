@@ -14,7 +14,7 @@ exports.config = {
             filePrefix: 'xmloutput',
             displayStacktrace: 'none'
           });
-        //commenting silly change
+        //commenting silly change against jenkins build process
           jasmine.getEnv().addReporter(junitReporter);
     },
         jasmineNodeOpts: {
