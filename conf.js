@@ -3,24 +3,24 @@ exports.config = {
     specs: ['CTVDemo.js'],
     capabilities: {
         browserName: 'chrome'
-      },
-      framework: 'jasmine2',
+    },
+    framework: 'jasmine2',
     onPrepare: function () {
         browser.driver.manage().window().setSize(1680, 900);
         var jasmineReporters = require('jasmine-reporters');
         var junitReporter = new jasmineReporters.JUnitXmlReporter({
-        	consolidateAll: true,
+            consolidateAll: true,
             savePath: 'output',
             filePrefix: 'xmloutput',
             displayStacktrace: 'none'
-          });
+        });
         //commenting silly change against jenkins build process for end to end pipeline again and again
-          jasmine.getEnv().addReporter(junitReporter);
+        jasmine.getEnv().addReporter(junitReporter);
     },
-        jasmineNodeOpts: {
-            includeStackTrace: false,
-            defaultTimeoutInterval: 250000
-},
-    
-    
+    jasmineNodeOpts: {
+        includeStackTrace: false,
+        defaultTimeoutInterval: 250000
+    },
+
+
 }
