@@ -11,7 +11,7 @@ exports.config = {
         var junitReporter = new jasmineReporters.JUnitXmlReporter({
             consolidateAll: true,
             savePath: 'output',
-            filePrefix: 'xmloutput',
+            filePrefix: 'xmloutput', 
             displayStacktrace: 'none'
         });
         //commenting silly change against jenkins build process for end to end pipeline again and again
